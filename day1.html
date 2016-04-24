@@ -7,11 +7,18 @@
     <body>
     <script>
     $(document).ready(function(){
-    $("button").click(function(){
-    $(".right").animate({right: '+=100px'});
-    $(".left").animate({left: '+=100px'});
-    $(".up").animate({top: '+=100px'});
-    $(".down").animate({bottom: '+=100px'});
+    $(".right").click(function(){
+    $(".left").click(function(){
+    $(".up").click(function(){
+    $(".down").click(function(){
+       
+    $("div").animate({right: '+=100px'});
+    $("div").animate({left: '+=100px'});
+    $("div").animate({top: '+=100px'});
+    $("div").animate({bottom: '+=100px'});
+    });
+    });
+    });
     });
     });
     </script>
