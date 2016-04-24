@@ -4,50 +4,49 @@ background-color: gray;
 .right{
 height: 60px;
 width: 120px;
-color: #FFA500;
+background-color: #FFA500;
 border-color: blue;
-border-radius=: 5px
 }
 .left{
 height: 60px;
 width: 120px;
-color: #FFA500;
+background-color: #FFA500;
 border-color: blue;
 }
 .up{
 height: 60px;
 width: 120px;
-color: #FFA500;
+background-color: #FFA500;
 border-color: blue;
 }
 .down{
 height: 60px;
 width: 120px;
-color: #FFA500;
+background-color: #FFA500;
 border-color: blue;
 }
 .right:hover{
 height: 80px;
 width: 160px;
-color: #FF00FF;
+background-color: #FF00FF;
 border-color: blue;
 }
 .left:hover{
 height: 80px;
 width: 160px;
-color: #FF00FF;
+background-color: #FF00FF;
 border-color: blue;
 }
 .down:hover{
 height: 80px;
 width: 160px;
-color: #FF00FF;
+background-color: #FF00FF;
 border-color: blue;
 }
 .up:hover{
 height: 80px;
 width: 160px;
-color: #FF00FF;
+background-color: #FF00FF;
 border-color: blue;
 }
 div{
