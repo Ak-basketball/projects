@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Animation</title>
-<style>
-div {
-    width: 400px;
-    height: 400px;
-    background-color: #FF00FF;
-    position: relative;
-    animation-name: ak-b-ball;
-    animation-duration: 4s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite; 
-}
-@keyframes ak-b-ball {
-    0%   {background-color:#FF00FF; border: 20px solid blue; left:0px; top:0px;}
-    25%  {background-color:yellow; border: 20px solid green; left:200px; top:0px;}
-    50%  {background-color:blue; border: 20px solid yellow; left:200px; top:200px;}
-    75%  {background-color:green; border: 20px solid purple; left:0px; top:200px;}
-    100% {background-color:#00FFFF; border: 20px solid red; left:0px; top:0px;}
-}
-</style>
-  </style>
-</head>
-<body>
-
-
-<center><div></div></center>
-
-
-</body>
-<html>
+        <html>
+                <head>
+                        <title>Animation</title>
+                        <style>
+                                div {
+                                     width: 200px;
+                                     height: 200px;
+                                     background-color: #FF00FF;
+                                     position: relative;
+                                     animation-name: ak-b-ball;
+                                     animation-duration: 4s;
+                                     animation-delay: 1s;
+                                     animation-iteration-count: infinite; 
+                                }
+                                @keyframes ak-b-ball {
+                                    0%   {background-color:#FF00FF; border: 20px solid blue; left:0px; top:0px;}
+                                    25%  {background-color:yellow; border: 20px solid green; left:200px; top:0px;}
+                                    50%  {background-color:blue; border: 20px solid yellow; left:200px; top:200px;}
+                                    75%  {background-color:green; border: 20px solid purple; left:0px; top:200px;}
+                                    100% {background-color:#00FFFF; border: 20px solid red; left:0px; top:0px;}
+                                }
+                                body{
+                                    background-color: #306754;
+                                }
+                        </style>
+                </head>
+                <body>
+                        <p>This animation is infinite, the colors keep changing</p>
+                        <p>Cool right?</p>
+                        <center><div></div></center>
+                </body>
+        <html>
