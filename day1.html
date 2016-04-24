@@ -5,20 +5,39 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script> 
 $(document).ready(function(){
-    $("button").click(function(){
+    $(".left").click(function(){
         $("div").animate({
             left: '+=250px',
             
         });
     });
+$(".right").click(function(){
+        $("div").animate({
+            right: '+=250px',
+   
 });
+});
+$(".up").click(function(){
+        $("div").animate({
+            top: '+=250px',
+});
+});
+$(".down").click(function(){
+        $("div").animate({
+            bottom: '+=250px',
+});
+});
+
 </script> 
    </head>
     <body>
     
     <table>
     <tr>
-    <td><button>Click to go right</button></td>
+    <td><button class="right">Click to go right</button></td>
+    <td><button class="left">Click to go left</button></td>
+    <td><button class="up">Click to go up</button></td>
+    <td><button class="down">Click to go down</button></td>
     
     </tr>
     </table>
