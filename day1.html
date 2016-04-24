@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+   <html> 
+   <head>
+   <title>Control</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+   </head>
+    <body>
+    <script>
+    $(document).ready(function(){
+    $("button").click(function(){
+    $(".right").animate({right: '+=100px'});
+    $(".left").animate({left: '+=100px'});
+    $(".up").animate({top: '+=100px'});
+    $(".down").animate({bottom: '+=100px'});
+    <table>
+    <tr>
+    <td><button class="right">Click to go right</button></td>
+    <td><button class="left">Click to go left</button></td>
+    <td><button class="down">Click to go down</button></td>
+    <td><button class="up">Click to go up</button></td>
+    </tr>
+    </table>
+    
+    <div style="background: blue; height: 50px; width: 50px"/>
+    </body>
+  </html>
