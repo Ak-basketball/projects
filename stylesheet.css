@@ -6,6 +6,7 @@ height: 60px;
 width: 120px;
 background-color: #FFA500;
 border-color: blue;
+border-radius: 5px;
 font-family="Comic Sans MS";
 }
 .left{
