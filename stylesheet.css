@@ -49,3 +49,6 @@ height: 60px;
 color: #FF00FF;
 border-color: blue;
 }
+div{
+  border:1px solid blue;
+}
