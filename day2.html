@@ -1,28 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
- <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 <title>Animation</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-$(".button1").click(function(){
- $(".button1").hide();
-  $(".button2").show();
- var div = $(".anime");
-        div.animate({height: '300px', opacity: '0.4'}, "slow");
-        div.animate({width: '300px', opacity: '0.8'}, "slow");
-        div.animate({height: '100px', opacity: '0.4'}, "slow");
-        div.animate({width: '100px', opacity: '0.8'}, "slow");
-         
-    });
-    $(".button2").click(function(){
-      $(".button2").hide();
-       $(".button1").show();
-     $(".anime").stop();
-    });
-});
-</script>
+<style>
+</style>
 </head>
 <body>
 <div>
