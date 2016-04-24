@@ -88,3 +88,6 @@ div{
 font{
   font-family: "Comic Sans MS";
 }
+.anime{
+    animation-iteration-count: infinite; 
+}
