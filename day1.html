@@ -7,18 +7,18 @@
     <body>
     <script>
     $(document).ready(function(){
-    $(".right").click(function(){
-   
-       
-    $("div").animate({right: "+=100px"});
-    
+    $("button").click(function(){
+        $("div").animate({
+            left: '+=250px',
+            
+        });
     });
-    });
+});
 
     </script>
     <table>
     <tr>
-    <td><button class="right">Click to go right</button></td>
+    <td><button>Click to go right</button></td>
     
     </tr>
     </table>
