@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-   <html> 
-   <head>
-   <title>Control</title>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script> 
+<html> 
+<head>
+<title>Control</title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script> 
 $(document).ready(function(){
     $(".down").click(function(){
         $("div").animate({
@@ -34,20 +35,18 @@ $(".left").click(function(){
 });
 </script>
 
-   </head>
-    <body>
+</head>
+<body>
     
-    <table>
-    <tr>
-    <td><button class="right">Click to go left</button></td>
-    <td><button class="left">Click to go right</button></td>
-    <td><button class="up">Click to go down</button></td>
-    <td><button class="down">Click to go up</button></td>
+<table>
+<tr>
+<td><button class="right">Click to go left</button></td>
+<td><button class="left">Click to go right</button></td>
+<td><button class="up">Click to go down</button></td>
+<td><button class="down">Click to go up</button></td>
+</tr>
+</table>
     
-    
-    </tr>
-    </table>
-    
-    <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
-    </body>
-  </html>
+<div style="background:red;height:100px;width:100px;position:absolute;"></div>
+</body>
+</html>
