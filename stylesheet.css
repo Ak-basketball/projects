@@ -6,48 +6,56 @@ height: 60px;
 width: 120px;
 background-color: #FFA500;
 border-color: blue;
+font-family="Comic Sans MS";
 }
 .left{
 height: 60px;
 width: 120px;
 background-color: #FFA500;
 border-color: blue;
+font-family="Comic Sans MS";
 }
 .up{
 height: 60px;
 width: 120px;
 background-color: #FFA500;
 border-color: blue;
+font-family="Comic Sans MS";
 }
 .down{
 height: 60px;
 width: 120px;
 background-color: #FFA500;
 border-color: blue;
+font-family="Comic Sans MS";
 }
 .right:hover{
 height: 80px;
 width: 160px;
 background-color: #FF00FF;
 border-color: blue;
+font-family="Comic Sans MS";
 }
 .left:hover{
 height: 80px;
 width: 160px;
 background-color: #FF00FF;
 border-color: blue;
+font-family="Comic Sans MS";
 }
 .down:hover{
 height: 80px;
 width: 160px;
 background-color: #FF00FF;
 border-color: blue;
+font-family="Comic Sans MS";
 }
 .up:hover{
 height: 80px;
 width: 160px;
 background-color: #FF00FF;
 border-color: blue;
+font-family="Comic Sans MS";
 }
 div{
   border:1px solid blue;
