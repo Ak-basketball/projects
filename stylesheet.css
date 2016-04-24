@@ -9,6 +9,7 @@ border-color: blue;
 border-radius: 25px;
 font-family="Comic Sans MS";
 font-size: 15px;
+font-weight: bold;
 }
 .left{
 height: 60px;
@@ -18,6 +19,7 @@ border-color: blue;
 border-radius: 25px;
 font-family="Comic Sans MS";
 font-size: 15px;
+font-weight: bold;
 }
 .up{
 height: 60px;
@@ -27,6 +29,7 @@ border-color: blue;
 border-radius: 25px;
 font-family="Comic Sans MS";
 font-size: 15px;
+font-weight: bold;
 }
 .down{
 height: 60px;
@@ -36,6 +39,7 @@ border-color: blue;
 border-radius: 25px;
 font-family="Comic Sans MS";
 font-size: 15px;
+font-weight: bold;
 }
 .right:hover{
 height: 80px;
@@ -45,6 +49,7 @@ border-color: blue;
 border-radius: 25px;
 font-family="Comic Sans MS";
 font-size: 15px;
+font-weight: bold;
 }
 .left:hover{
 height: 80px;
@@ -54,6 +59,7 @@ border-color: blue;
 border-radius: 25px;
 font-family="Comic Sans MS";
 font-size: 15px;
+font-weight: bold;
 }
 .down:hover{
 height: 80px;
@@ -63,6 +69,7 @@ border-color: blue;
 border-radius: 25px;
 font-family="Comic Sans MS";
 font-size: 15px;
+font-weight: bold;
 }
 .up:hover{
 height: 80px;
@@ -72,6 +79,7 @@ border-color: blue;
 border-radius: 25px;
 font-family="Comic Sans MS";
 font-size: 15px;
+font-weight: bold;
 }
 div{
   border:5px solid blue;
