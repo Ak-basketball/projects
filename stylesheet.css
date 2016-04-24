@@ -2,50 +2,50 @@ body{
 background-color: gray;
 }
 .right{
-width: 20px;
-height: 40px;
+height: 60px;
+width: 120px;
 color: #FFA500;
 border-color: blue;
 }
 .left{
-width: 20px;
-height: 40px;
+height: 60px;
+width: 120px;
 color: #FFA500;
 border-color: blue;
 }
 .up{
-width: 20px;
-height: 40px;
+height: 60px;
+width: 120px;
 color: #FFA500;
 border-color: blue;
 }
 .down{
-width: 20px;
-height: 40px;
+height: 60px;
+width: 120px;
 color: #FFA500;
 border-color: blue;
 }
 .right:hover{
-width: 30px;
-height: 60px;
+height: 80px;
+width: 160px;
 color: #FF00FF;
 border-color: blue;
 }
 .left:hover{
-width: 30px;
-height: 60px;
+height: 80px;
+width: 160px;
 color: #FF00FF;
 border-color: blue;
 }
 .down:hover{
-width: 30px;
-height: 60px;
+height: 30px;
+width: 60px;
 color: #FF00FF;
 border-color: blue;
 }
 .up:hover{
-width: 30px;
-height: 60px;
+height: 30px;
+width: 60px;
 color: #FF00FF;
 border-color: blue;
 }
