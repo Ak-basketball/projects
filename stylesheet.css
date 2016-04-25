@@ -91,8 +91,10 @@ font{
 .day1-h1{
   font-family: "Comic Sans MS";
   color: white;
+  font-size: 40px;
 }
 .day1-p{
   font-family: "Comic Sans MS";
   color: white;
+  font-size: 30px;
 }
