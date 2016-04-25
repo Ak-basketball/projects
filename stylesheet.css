@@ -104,7 +104,9 @@ font{
 }
 .day1-a{
   color: black;
+  text-decoration: none;
 }
-.day1-h:hover{
+.day1-a:hover{
   color: yellow;
+  text-decoration: none;
 }
