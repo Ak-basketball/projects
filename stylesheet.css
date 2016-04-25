@@ -102,3 +102,9 @@ font{
   background-image: url("http://naturewallpaperhd.org/wp-content/uploads/2015/06/NatureWallpaperHD_nature_forest_arch_hd_wallpaper.jpg");
   background-position: center center;
 }
+.day1-a{
+  color: black;
+}
+.day1-h:hover{
+  color: yellow;
+}
