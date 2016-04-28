@@ -75,6 +75,7 @@ body{
 }
 div{
   border: 5px solid #1589FF;
+  z-index:-1;
 }
 p{
   color: white;
