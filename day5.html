@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+  </head>
+  <body>
+  <style>
+  body{
+  background: black;
+  margin-left: 200px
+}
+</style>
+<script>
+var myName = "BUBBLES";
+
+var red = [0, 100, 63];
+var orange = [40, 100, 60];
+var green = [75, 100, 40];
+var blue = [199, 77, 55];
+var purple = [280, 50, 60];
+var white = [255, 255, 255];
+var letterColors = [green, black, blue, purple, orange, red];
+
+drawName(myName, letterColors);
+
+if(10 < 6)
+{
+    bubbleShape = 'square';
+}
+else
+{
+    bubbleShape = 'circle';
+}
+
+bounceBubbles();
+</script>
+    <canvas id="myCanvas"></canvas>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
