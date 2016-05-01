@@ -1,22 +1,24 @@
-var myName = "BUBBLES";
-
-var red = [0, 100, 63];
-var orange = [40, 100, 60];
-var green = [75, 100, 40];
-var blue = [199, 77, 55];
-var purple = [280, 50, 60];
-var white = [255, 255, 255];
-var letterColors = [green, black, blue, purple, orange, red];
-
-drawName(myName, letterColors);
-
-if(10 < 6)
-{
-    bubbleShape = 'square';
-}
-else
-{
-    bubbleShape = 'circle';
-}
-
-bounceBubbles();
+$(document).ready(function() {
+    $(".addition").click(function() {
+        var add1= parseInt($("#num1").val());
+        var add2= parseInt($("#num2").val());
+        var sum = add1+add2;
+        $(".answer").html("Your sum is"+" "+ sum);
+    });
+    $(".subtraction").click(function() {
+        var sub1= parseInt($("#num1").val());         var sub2= parseInt($("#num2").val());
+        var difference = sub1-sub2;
+        $(".answer").html("Your difference is"+" "+ difference);
+    });
+    $(".multiplication").click(function() {
+        var mul1= parseInt($("#num1").val());         var mul2= parseInt($("#num2").val());
+        var product = mul1*mul2;
+        $(".answer").html("Your product is"+" "+ product);
+    });
+    $(".division").click(function() {
+        var div1= parseInt($("#num1").val());         var div2= parseInt($("#num2").val());
+        var quotient = div1/div2;
+        $(".answer").html("Your quotient is"+" "+ quotient);
+    });
+ });
+   
