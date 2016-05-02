@@ -1,111 +1,7 @@
 <html>
   <head>
     <title>Day 5: Calculator</title>
-    <script src="jquery-1.12.0.min.js"></script>
-    <style>
-    body{
-  text-align: center;
-  background: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6_dyJop8X.jpg");
-  width: 1340px;
-  height:100%;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#num1{
-  border-radius: 20px;
-  width: 400px;
-  height: 40px;
-  font-size: 35px;
-  font-family: "Candara", sans-serif
-}
-#num2{
-  border-radius: 20px;
-  width: 400px;
-  height: 40px;
-  font-size: 35px;
-  font-family: "Candara", sans-serif
-}
-h3{
-  font-family: "Candara", sans-serif;
-}
-h1{
-  font-family: "Candara", sans-serif;
-}
-.addition{
-  border-radius: 7px;
-  padding-top: 10px;
-  margin-top: 5px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background: none;
-  border: 2px solid white;
-}
-.multiplication{
-  border-radius: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background: none;
-  border: 2px solid white;
-}
-.division{
-  border-radius: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  padding-left: 33px;
-  padding-right: 33px;
-  margin-bottom: 5px;
-  background: none;
-  border: 2px solid white;
-}
-.subtraction{
-  border-radius: 7px;
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
-  background: none;
-  border: 2px solid white;
-}
-.subtraction:hover{
-  background-color: #FF7F3B;
-  border: 3px solid white;
-  width: 80px;
-  height: 50px;
-}
-.addition:hover{
-  background-color: #FF7F3B;
-  border: 3px solid white;
-  width: 80px;
-  height: 50px;
-}
-.multiplication:hover{
-  background-color: #FF7F3B;
-  border: 3px solid white;
-  width: 80px;
-  height: 50px;
-}
-.division:hover{
-  background-color: #FF7F3B;
-  border: 3px solid white;
-  width: 80px;
-  height: 50px;
-}
-.answer{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 30px;
-  font-family: "Candara", sans-serif
-}
-</style>
+     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
   </head>
   <body>
     <h1>Calculator</h1>
@@ -120,30 +16,7 @@ h1{
      <li><input type="text" placeholder="The second number" id="num2"></li>
     </ul>
     <p class="answer"></p>
-    <script>
-    $(document).ready(function() {
-    $(".addition").click(function() {
-        var add1= parseInt($("#num1").val());
-        var add2= parseInt($("#num2").val());
-        var sum = add1+add2;
-        $(".answer").html("Your sum is"+" "+ sum);
-    });
-    $(".subtraction").click(function() {
-        var sub1= parseInt($("#num1").val());         var sub2= parseInt($("#num2").val());
-        var difference = sub1-sub2;
-        $(".answer").html("Your difference is"+" "+ difference);
-    });
-    $(".multiplication").click(function() {
-        var mul1= parseInt($("#num1").val());         var mul2= parseInt($("#num2").val());
-        var product = mul1*mul2;
-        $(".answer").html("Your product is"+" "+ product);
-    });
-    $(".division").click(function() {
-        var div1= parseInt($("#num1").val());         var div2= parseInt($("#num2").val());
-        var quotient = div1/div2;
-        $(".answer").html("Your quotient is"+" "+ quotient);
-    });
- });
- </script>
+    
   </body>
+  <script type="text/javascript" src="mainPage.js"></script>
 </html>
