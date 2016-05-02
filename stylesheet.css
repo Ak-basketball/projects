@@ -18,7 +18,8 @@
    width: 400px;
    height: 40px;
    font-size: 35px;
-   font-family: "Candara", sans-serif
+   font-family: "Candara", sans-serif;
+   margin-left: 60%;
  }
  
  #num2 {
@@ -26,7 +27,8 @@
    width: 400px;
    height: 40px;
    font-size: 35px;
-   font-family: "Candara", sans-serif
+   font-family: "Candara", sans-serif;
+   margin-left: 60%;
  }
  
  h3 {
@@ -36,7 +38,9 @@
  h1 {
    font-family: "Candara", sans-serif;
  }
- 
+.and{
+  margin-left: 810%;
+}
  .addition {
    border-radius: 7px;
    padding-top: 10px;
@@ -116,4 +120,3 @@
    font-size: 30px;
    font-family: "Candara", sans-serif
  }
-
