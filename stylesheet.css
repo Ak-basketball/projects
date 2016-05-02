@@ -19,7 +19,8 @@
    height: 40px;
    font-size: 35px;
    font-family: "Candara", sans-serif;
-   margin-left: 60%;
+   text-align: center;
+   margin-left: 50%;
  }
  
  #num2 {
@@ -28,7 +29,8 @@
    height: 40px;
    font-size: 35px;
    font-family: "Candara", sans-serif;
-   margin-left: 60%;
+   text-align: center;
+   margin-left: 70%;
  }
  
  h3 {
@@ -39,7 +41,7 @@
    font-family: "Candara", sans-serif;
  }
 .and{
-  margin-left: 810%;
+  margin-left: 700%;
 }
  .addition {
    border-radius: 7px;
